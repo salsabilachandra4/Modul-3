@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Nav</title>
+    <style>
+        nav {
+            background-color: #f4f4f4; /* light gray background */
+            padding: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Flexbox to align items horizontally */
+        }
+
+        li {
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #f1f1f1;
+            color: #333;
+            display: block;
+            font-family: Arial, sans-serif;
+        }
+
+        .active {
+            background-color: #4FC3C5; /* Active tab color */
+            color: white;
+            border-bottom: solid 5px #f1f1f1;
+        }
+
+        a:hover {
+            background-color: #555; /* Hover effect */
+            color: white;
+            border-bottom: solid 5px #4FC3C5;
+        }
+    </style>
+</head> 
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
